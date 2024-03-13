@@ -17,3 +17,15 @@ samples, guidance on mobile development, and a full API reference.
 
 - How to use FlutLab? Please, view our https://flutlab.io/docs
 - Join the discussion and conversation on https://flutlab.io/residents
+
+## Links de referencia
+
+- https://andygeek.com/posts/Creando-cards-en-flutter/
+- https://api.flutter.dev/flutter/widgets/Container-class.html
+
+## Resultados 
+
+![image](https://github.com/GarciaC128/Act14-rutas1214/assets/143743720/15b690d7-bc65-479d-92ee-68252bab3436)
+![image](https://github.com/GarciaC128/Act14-rutas1214/assets/143743720/2f060fb7-ad73-437d-9790-7d2aab219485)
+![image](https://github.com/GarciaC128/Act14-rutas1214/assets/143743720/ff5e5cb5-5645-47a5-988d-72ad076f949a)
+
