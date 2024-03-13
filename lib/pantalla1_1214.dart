@@ -8,18 +8,24 @@ class Pantalla1_1214 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Pantalla 1 Garciac1214"),
-        backgroundColor: Colors.blue,
+        title: Text("Card p1 Garciac1214"),
+        backgroundColor: Colors.deepPurpleAccent,
       ),
       body: Center(
-        child: Column(
-          children: [
-            Container(
-              child: Text("Garciac EJEMPLO"),
-            )
-          ], // niños
+        child: Card(
+          elevation: 10,
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
+          color: Colors.pinkAccent,
+          child: Padding(
+            padding: EdgeInsets.all(20),
+            child: Text(
+              "Card GarciaC",
+              style: TextStyle(fontSize: 30, color: Colors.white),
+            ),
+          ),
         ),
       ),
     );
-  } // fin widget
-} // fin pantalla1_1214
+  } //Fin widget
+} //Fin pantalla1

@@ -13,16 +13,26 @@ class Pantalla2_1214 extends StatelessWidget {
         backgroundColor: Colors.deepOrange,
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            ElevatedButton(
-              onPressed: () {}, // Si presiona boton
-              child: Text("Pantalla"),
-            )
-          ],
+        child: Container(
+          color: Color(0xff376641),
+          margin: const EdgeInsets.all(25.0),
+          width: double.infinity,
+          height: 200,
+          child: Card(
+            shape:
+                RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
+            color: Color(0xff489c7f),
+            margin: EdgeInsets.all(32),
+            child: Padding(
+              padding: EdgeInsets.all(16),
+              child: Text(
+                "Pantalla 2 Garciac1214",
+                style: TextStyle(fontSize: 30, color: Colors.white),
+              ),
+            ),
+          ),
         ),
       ),
     );
-  } //widgets
-} // fin pantalla1_1214
+  } //Fin Widget
+} //Fin Pantalla2_0359
